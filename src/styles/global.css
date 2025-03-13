@@ -68,7 +68,6 @@ h1 {
   }
 
   .nav-links {
-    margin-left: 5em;
     display: block;
     position: static;
     width: auto;
@@ -79,5 +78,14 @@ h1 {
     display: inline-block;
     padding: 15px 20px;
   }
+}
 
+/* Dark mode */
+html.dark {
+  background-color: #0d0950;
+  color: #fff;
+}
+
+.dark .nav-links a {
+  color: #fff;
 }
